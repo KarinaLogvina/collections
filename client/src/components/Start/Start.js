@@ -17,18 +17,9 @@ const Start = () => {
                             </Link>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <div className="w-full h-screen bg-center bg-no-repeat bg-cover" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1600368140362-c15b880e7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1052&q=80')` }}>
-                <div className="w-full h-screen bg-opacity-50 bg-black flex justify-center items-center relative">
-                    <div className="mx-4 text-center text-white">
-                        <h1 className="font-bold text-6xl mb-4">This is a test</h1>
-                        <h2 className="font-bold text-3xl mb-12">This is a test</h2>
-                    </div>
                     <div className="absolute bottom-14">
                         <a href="" className="border-2 border-white rounded-md font-bold text-white px-4 py-3 transition duration-300 ease-in-out hover:bg-blue-500 hover:text-white mr-6">
-                            Click here
+                            See collections
                         </a>
                     </div>
                 </div>

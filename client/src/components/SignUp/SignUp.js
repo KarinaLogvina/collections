@@ -1,10 +1,8 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { Link } from 'react-router-dom';
-import { useHistory } from "react-router";
 import * as Yup from "yup";
 
 const SignUp = () => {
-    let history = useHistory();
     const initialValues = {
         username: "",
         mail: "",
