@@ -1,8 +1,18 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
+import axios from "axios";
 import { Link } from 'react-router-dom';
 import * as Yup from "yup";
+import { useHistory } from "react-router";
 
 const SignUp = () => {
+    let history = useHistory();
+
+    const onSubmit = (data) => {
+        axios.post("http://localhost:3002/register", data).then(() => {
+            history.push('/login');
+        })
+    }
+
     const initialValues = {
         username: "",
         mail: "",
@@ -21,7 +31,7 @@ const SignUp = () => {
                 <div className="md:flex w-full">
                     <div className="hidden md:block w-1/2 bg-indigo-500 py-10 px-10" style={{ backgroundImage: `url("https://images.unsplash.com/photo-1495929427389-a6451f2e01fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")` }}>
                     </div>
-                    <Formik initialValues={initialValues} validationSchema={validationSchema}>
+                    <Formik initialValues={initialValues} onSubmit={onSubmit} validationSchema={validationSchema}>
                         <div className="w-full md:w-1/2 py-10 px-5 md:px-10">
                             <div className="text-center mb-2">
                                 <h1 className="font-bold text-3xl text-gray-900">REGISTER</h1>

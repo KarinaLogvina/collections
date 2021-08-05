@@ -18,9 +18,9 @@ const Start = () => {
                         </div>
                     </div>
                     <div className="absolute bottom-14">
-                        <a href="" className="border-2 border-white rounded-md font-bold text-white px-4 py-3 transition duration-300 ease-in-out hover:bg-blue-500 hover:text-white mr-6">
+                        <p className="border-2 border-white rounded-md font-bold text-white px-4 py-3 transition duration-300 ease-in-out hover:bg-blue-500 hover:text-white mr-6">
                             See collections
-                        </a>
+                        </p>
                     </div>
                 </div>
             </div>
