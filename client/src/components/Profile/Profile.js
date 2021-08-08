@@ -3,7 +3,10 @@ import Nav from "../Navigation/Navigation";
 
 const User = () => {
     return (
-        <Nav />
+        <>
+            <Nav />
+            <div className=""></div>
+        </>
     )
 }
 

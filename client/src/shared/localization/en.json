@@ -2,6 +2,7 @@
     "navigation-menu.home": "Home",
     "navigation-menu.login": "Login",
     "navigation-sign-up.sign-up": "Sign Up",
+    "navigation-sign-up.profile": "Profile",
     "login-page.title": "Login",
-    "login-.title": "Login"
+    "login.title": "Login"
 }

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Start = () => {
     return (
         <>
-            <div className="w-full h-screen bg-center bg-no-repeat bg-cover" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1616663395731-d70897355fd8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80')` }}>
+            <div className="w-full bg-center bg-no-repeat bg-cover" style={{ backgroundImage: `url('https://images.unsplash.com/photo-1616663395731-d70897355fd8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80')` }}>
                 <div className="w-full h-screen bg-opacity-50 bg-black flex justify-center items-center">
                     <div className="mx-4 text-center text-white">
                         <h1 className="font-bold text-6xl mb-4">Fill your collections</h1>
