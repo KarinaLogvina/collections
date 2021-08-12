@@ -1,8 +1,10 @@
 {
     "navigation-menu.home": "Home",
+    "navigation-menu.profile": "Profile",
+    "navigation-menu.collections": "Collections",
     "navigation-menu.login": "Login",
     "navigation-sign-up.sign-up": "Sign Up",
     "navigation-sign-up.profile": "Profile",
-    "login-page.title": "Login",
-    "login.title": "Login"
+    "login.title": "LOGIN",
+    "register.title": "REGISTER"
 }

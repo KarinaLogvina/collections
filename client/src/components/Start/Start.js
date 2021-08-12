@@ -12,7 +12,7 @@ const Start = () => {
                             <Link to="/login" className="uppercase border-2 border-indigo-800 bg-indigo-800 rounded-md font-bold text-white px-4 py-3 transition duration-300 ease-in-out hover:bg-blue-500 hover:text-white mr-6">
                                 Sign In
                             </Link>
-                            <Link to="/registration" className="uppercase border-2 border-white rounded-md font-bold text-white px-4 py-3 transition duration-300 ease-in-out hover:bg-blue-500 hover:text-white mr-6">
+                            <Link to="/register" className="uppercase border-2 border-white rounded-md font-bold text-white px-4 py-3 transition duration-300 ease-in-out hover:bg-blue-500 hover:text-white mr-6">
                                 Sign Up
                             </Link>
                         </div>

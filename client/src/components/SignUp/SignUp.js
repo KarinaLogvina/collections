@@ -3,6 +3,7 @@ import axios from "axios";
 import { Link } from 'react-router-dom';
 import * as Yup from "yup";
 import { useHistory } from "react-router";
+import { FormattedMessage } from "react-intl";
 
 const SignUp = () => {
     let history = useHistory();
@@ -34,7 +35,7 @@ const SignUp = () => {
                     <Formik initialValues={initialValues} onSubmit={onSubmit} validationSchema={validationSchema}>
                         <div className="w-full md:w-1/2 py-10 px-5 md:px-10">
                             <div className="text-center mb-2">
-                                <h1 className="font-bold text-3xl text-gray-900">REGISTER</h1>
+                                <h1 className="font-bold text-3xl text-gray-900"><FormattedMessage id="register.title" /></h1>
                                 <p>Enter your information to register</p>
                             </div>
                             <div className="text-center mb-5">
